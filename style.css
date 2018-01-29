@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+
+}
+h2 {
+    padding-bottom: 20px;
+}
+
+table {
+    text-align: left;
+    float: left;
+    margin-right: 80px;
+    font-weight: normal;
+}
+
+.fig {
+    : 100px;
+}
+
+.fio {
+    text-align: center;
+}
