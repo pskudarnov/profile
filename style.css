@@ -1,26 +1,85 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.wrapper{
+.content {
+    font-size: 16px;
+    font-family: TimesNewRoman;
+}
+
+.userinfo{
+    position:fixed;
+    right:0;
+    top:0;
+    width:75%;
+    height:100%;
+    background:green;
+    color:#fff;
+    overflow:auto;
+}
+
+.user {
+    position:fixed;
+    left:0;
+    top:0;
+    width:25%;
+    height:100%;
+    background:blue;
+    color:#fff;
+    overflow:auto;
+}
+
+.user__img {
+    width: 100px;
+    height: 100px;
+    margin: 100px auto 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user__img img {
+    width: 100%;
+    height: 100%;
+}
+
+.user__name {
+    text-align: center;
+}
+
+.user__contact {
+    text-align: center;
+    margin-top: 30px;
+}
+
+hr {
+    border: none;
+    background-color: red;
+    height: 3px;
+    margin: 0 auto 0;
+    width: 300px;
+}
+
+.user__contact__content {
+    border-top: 2px solid red;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto 0;
+    padding-top: 10px;
 
 }
-h2 {
+
+h3 {
     padding-bottom: 20px;
 }
 
-table {
-    text-align: left;
-    float: left;
-    margin-right: 80px;
-    font-weight: normal;
-}
-
-.fig {
-    : 100px;
-}
-
-.fio {
-    text-align: center;
+.skills,
+.target,
+.education{
+    width: 600px;
+    padding-top: 30px;
+    padding-left: 50px;
 }
