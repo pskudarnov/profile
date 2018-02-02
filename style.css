@@ -7,14 +7,13 @@
 }
 
 .main-menu {
-    position: relative;
-    background-color: red;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #cee1e6;
     width: 100%;
-    height: 50px;
+    height: 35px;
     color: #ffffff;
-    padding-left: 25%;
-    font-size: 16px;
-    font-family: TimesNewRoman;
 }
 
 .main-menu__ul{
@@ -36,12 +35,12 @@
 
 .userinfo{
     position:relative;
+    padding-top: 50px;
     right:0;
     width: 75%;
     left: 25%;
     height:90%;
-    background:green;
-    color:#fff;
+    color: #979797;
     overflow:auto;
 }
 
@@ -51,7 +50,7 @@
     top:0;
     width:25%;
     height:100%;
-    background:blue;
+    background: #4c73a2;
     color:#fff;
     overflow:auto;
 }
@@ -80,14 +79,13 @@
 
 hr {
     border: none;
-    background-color: red;
     height: 3px;
     margin: 0 auto 0;
     width: 300px;
 }
 
 .user__contact__content {
-    border-top: 2px solid red;
+    border-top: 2px solid #8ac3d5;
     text-align: center;
     width: 300px;
     margin: 20px auto 0;
@@ -125,17 +123,12 @@ h3 {
 }
 
 .footer {
-    font-size: 16px;
-    font-family: TimesNewRoman;
-    height: 36px;
-    padding-top:10px;
-    background: yellow;
+    display: flex;
+    background: #cee1e6;
     position: relative;
-    bottom: 0;
-    left: 25%;
-    width: 75%;
-    text-align: left;
-    color: royalblue;
+    justify-content: space-between;
+    padding: 3px 50px;
+    align-items: center;
 }
 
 .target__img {
@@ -159,27 +152,33 @@ h3 {
 }
 
 .social_networks {
-    position: relative;
-    top: 96%;
-    left: 53%;
+    display: flex;
+}
+
+.social_networks a{
+    margin: 0 2px;
 }
 
 .vk__img{
     width: 30px;
     height: 30px;
+    display: block;
 }
 
 .in__img {
     width: 30px;
     height: 30px;
+    display: block;
 }
 
 .git__img {
     width: 30px;
     height: 30px;
+    display: block;
 }
 
 .telegram__img {
     width: 30px;
     height: 30px;
+    display: block;
 }
